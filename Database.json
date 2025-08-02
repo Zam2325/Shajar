@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "adoptions": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "reports": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    ".read": true
+  }
+}
